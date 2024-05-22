@@ -31,21 +31,26 @@ To get started with Alexa Personal Assistant, follow these steps:
 
 3. Make sure you have Python installed on your system. You can download it from [here](https://www.python.org/downloads/).
 
-4. Run the `Alexa.py` script:
+4. Create a JSON file named `QA.json` in the project directory. This file should contain custom Q&A pairs in the following format:
+
+    ```json
+    {
+        "What is the capital of France?": "The capital of France is Paris.",
+        "Who is the president of the United States?": "The president of the United States is Joe Biden."
+        // Add more Q&A pairs as needed
+    }
+    ```
+
+5. Run the `Alexa.py` script:
 
     ```bash
     python Alexa.py
     ```
 
-5. Start giving voice commands to Alexa and enjoy its functionalities!
+6. Start giving voice commands to Alexa and enjoy its functionalities!
 
 ## Usage
 
 - Upon running the `Alexa.py` script, Alexa will greet you and await your voice commands.
 - Simply say "Alexa" followed by your command or question.
 - Alexa will respond accordingly, performing tasks or providing information as requested.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, enhancements, or bug fixes, feel free to open an issue or create a pull request.
-
