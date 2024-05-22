@@ -1,0 +1,7 @@
+2024-05-22 13:02:44:  hello
+2024-05-22 13:02:54:  open youtube
+2024-05-22 13:03:05:  open youtube.com
+2024-05-22 13:03:15:  open youtube
+2024-05-22 13:03:26:  open youtube website
+2024-05-22 13:03:40:  open code
+2024-05-22 13:04:09:  exit
