@@ -20,7 +20,7 @@ To get started with Alexa Personal Assistant, follow these steps:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/DhruvilPatel603/AI_Assitant.git
+    git clone https://github.com/DhruvilPatel603/Alexa_Assistant.git
     ```
 
 2. Install the required dependencies using pip:
