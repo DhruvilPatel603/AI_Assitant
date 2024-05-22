@@ -36,17 +36,17 @@ def run_alexa():
             webbrowser.open("stackoverflow.com")
         elif 'open code' in command:
             talk('Opening Visual Studio Code')
-            codePath = "C:\\Users\\Patel\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "Use Your App.exe Path"
             os.startfile(codePath)
         elif 'open chrome' in command:
             talk('Opening Chrome')
-            codePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+            codePath = "Use Your App.exe Path"
             os.startfile(codePath)
         elif 'email' in command:
             try:
                 talk("What should I say?")
                 content = take_command()
-                to = "pateldhruvil603@gmail.com"    
+                to = "emailofuser@gmail.com"    
                 sendEmail(to, content)
                 talk("Email has been sent!")
             except Exception as e:
