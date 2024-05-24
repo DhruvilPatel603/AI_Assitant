@@ -54,3 +54,5 @@ To get started with Alexa Personal Assistant, follow these steps:
 - Upon running the `Alexa.py` script, Alexa will greet you and await your voice commands.
 - Simply say "Alexa" followed by your command or question.
 - Alexa will respond accordingly, performing tasks or providing information as requested.
+
+**Note**: Alexa will only respond if you precede your command with the word "Alexa".
